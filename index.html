@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Resume Builder</h1>
-    <form action="">
-        <div>
+    <form action="" class="form">
+        <div class="direction">
             <label for="name">Name</label>
-            <input type="text" id="name">
+            <input type="text" id="name" >
         </div>
 
-        <div>
+        <div class="direction">
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" >
         </div>
 
-        <div>
-            <label for="phone">Name</label>
-            <input type="number" id="phone">
+        <div class="direction">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" >
         </div>
 
-        <div>
+        <div class="direction">
             <label for="linkedin">LinkedIn Id</label>
-            <input type="text" id="linkedin">
+            <input type="text" id="linkedin" >
         </div>
 
-        <div>
-            <label for="name">Name</label>
-            <input type="text" id="name">
+        <div class="direction">
+            <label for="github">Github Id</label>
+            <input type="text" id="github" >
         </div>
+
+        <div class="direction">
+            <label for="exp">Experience</label>
+            <input type="text" id="exp" >
+        </div>
+
+        <div class="direction">
+            <label for="education">Education</label>
+            <input type="text" id="education">
+        </div>
+
+        <div class="direction">
+            <label for="photo">Upload Photo</label>
+            <input type="file" id="photo" >
+        </div>
+
+        <button class="btn">
+            Generate Resume
+        </button>
     </form>
+
+    <div id="DisplayResumeData"></div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

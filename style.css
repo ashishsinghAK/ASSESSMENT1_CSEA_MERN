@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+    background-color:rgb(243, 238, 232);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    border: 1px solid black;
+    padding:1em;
+    border-radius:1em;
+    background-color:rgb(245, 245, 238);
+    width:35vw;
+}
+
+.direction{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: blue;
+    font-weight: bold;
+    color:white;
+    cursor:pointer;
+    height:3em;
+    border-radius: 1em;
+}
+
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+input{
+    height:2.5em;
+    border-radius: .5em;
+}
+
+
+h1{
+    font-weight: bolder;
+    color:blue;
+    font-family:'Times New Roman', Times, serif;
+}
